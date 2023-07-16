@@ -15,12 +15,12 @@ def auto_key_presser(keys):
             pyautogui.press(key)
 
 if __name__ == "__main__":
-    T_subs = 10#int(input("Total number of theory subjects: "))
-    T_crit = 14#int(input("Total number of theory remarks: "))
-    P_subs = 4#int(input("Total number of practical subjects: "))
-    p_crit = 13#int(input("Total number of practical remarks: "))
-    comment = "Good"#input("Comment: ")
-    remark = 2#int(input("Choose option: {0:Average,1:Excellent,2:Good,3:Poor,4:very Good}")
+    T_subs = int(input("Total number of theory subjects: "))
+    T_crit = int(input("Total number of theory remarks: "))
+    P_subs = int(input("Total number of practical subjects: "))
+    p_crit = int(input("Total number of practical remarks: "))
+    comment = input("Comment: ")
+    remark = int(input("Choose option: {0:Average,1:Excellent,2:Good,3:Poor,4:Very Good}")
     print("The form will start to autofill in 10 seconds switch to the tab")
     
     key_input = "tab tab "
